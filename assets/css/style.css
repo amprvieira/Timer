@@ -1,0 +1,41 @@
+:root{
+    --primary-color:rgb(58, 127, 136);
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: var(--primary-color);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    line-height: 1.5em;
+}
+
+.container{
+    background-color: #ffff;
+    max-width: 640px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.relogio{
+    font-size: 3em;
+}
+
+.pausado{
+    color: red;
+}
+
+button{
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color: var(--primary-color);
+    color: #ffff;
+}
+
+.iniciar[disabled]{
+    pointer-events: none;
+    opacity: 0.5;
+    
+}
